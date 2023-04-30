@@ -1,2 +1,3 @@
---Telescope Fuzzy Finder
 local builtin = require('telescope.builtin')
+
+require("telescope").setup({})
