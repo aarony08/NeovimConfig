@@ -13,4 +13,16 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 -- Plugin Setup
-require("lazy").setup("auxol.plugins")
+require("lazy").setup(
+    "auxol.plugins",
+    {
+        performance = {
+            rtp = {
+                disabled_plugins = {
+                    "netrw",
+                    "netrwPlugin",
+                },
+            },
+        },
+    }
+)

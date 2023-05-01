@@ -1,4 +1,4 @@
- return {
+return {
 	
     {
 	    "AlexvZyl/nordic.nvim",
@@ -39,9 +39,22 @@
         'feline-nvim/feline.nvim'
     },
 
+    {
+        "nvim-telescope/telescope-file-browser.nvim",
+        dependencies = { 
+            "nvim-telescope/telescope.nvim", 
+            "nvim-lua/plenary.nvim" 
+        }
+    },
+
     -- Harpoon
     {
         'ThePrimeagen/harpoon'
+    },
+
+    --Floating Terminal
+    {
+        'voldikss/vim-floaterm'
     },
 
     -- LSP/Intellisense
