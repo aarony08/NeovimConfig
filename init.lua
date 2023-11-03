@@ -1,1 +1,1 @@
-require("auxol")
+require("cfg")
