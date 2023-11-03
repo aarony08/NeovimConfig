@@ -1,5 +1,0 @@
-print("Sup Auxol")
-require("auxol.set")
-require("auxol.lazy")
-require("auxol.autocommands")
-require("auxol.keybinds")
