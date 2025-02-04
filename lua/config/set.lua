@@ -31,7 +31,7 @@ vim.opt.isfname:append("@-@")
 
 -- Time
 vim.opt.updatetime = 50
-vim.opt.colorcolumn = "80"
+vim.opt.colorcolumn = ""
 vim.opt.cursorline = false
 
 -- NetRW

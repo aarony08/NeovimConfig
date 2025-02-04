@@ -42,4 +42,10 @@ return {
             {'L3MON4D3/LuaSnip'}
         },
     },
+    {
+  "folke/snacks.nvim",
+  priority = 1000,
+  lazy = false,
+  opts = {},
+},
 }
